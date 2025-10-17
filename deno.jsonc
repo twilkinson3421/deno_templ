@@ -3,21 +3,13 @@
     "version": "0.1.0",
     "license": "MIT",
 
-    "imports": {
-        "~/": "./",
-        "&/": "./src/mod/",
-        "+/": "./src/mod/vendor/",
-        "@/": "./src/app/",
-        "?/": "./src/resources/",
-        "</": "./src/components/",
-        "$/": "./src/models/"
-    },
-
     "exports": { },
+
+    "unstable": [ ],
 
     "tasks": { },
 
-    "unstable": [ ],
+    "imports": { },
 
     "fmt": {
         "exclude": [ "**/*.min.*", "**/*.vendor.*", "**/*.lock" ],
@@ -44,7 +36,7 @@
         "jsxImportSource": "preact",
 
         "allowUnusedLabels": true,
-        "exactOptionalPropertyTypes": true,
+        "exactOptionalPropertyTypes": true, //NOTE - Some third-party libs will cause TypeScript to complain about this
         "noErrorTruncation": true,
         "noImplicitReturns": true,
         "noPropertyAccessFromIndexSignature": true,
