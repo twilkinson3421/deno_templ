@@ -36,7 +36,8 @@
         "jsxImportSource": "preact",
 
         "allowUnusedLabels": true,
-        "exactOptionalPropertyTypes": true, //NOTE - Some third-party libs will cause TypeScript to complain about this
+        "exactOptionalPropertyTypes": true,
+        "isolatedDeclarations": true,
         "noErrorTruncation": true,
         "noImplicitReturns": true,
         "noPropertyAccessFromIndexSignature": true,
