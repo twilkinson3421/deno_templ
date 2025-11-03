@@ -11,24 +11,6 @@
 
     "imports": { },
 
-    "fmt": {
-        "exclude": [ "**/*.min.*", "**/*.vendor.*", "**/*.lock" ],
-
-        "indentWidth": 4,
-        "lineWidth": 120,
-        "newLineKind": "lf",
-        "semiColons": true,
-        "singleQuote": false,
-        "useTabs": false,
-
-        "bracePosition": "maintain",
-        "nextControlFlowPosition": "maintain",
-        "operatorPosition": "maintain",
-        "quoteProps": "consistent",
-        "singleBodyPosition": "maintain",
-        "useBraces": "maintain"
-    },
-
     "compilerOptions": {
         "lib": [ "deno.window", "deno.ns", "deno.unstable" ],
 
