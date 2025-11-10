@@ -6,13 +6,9 @@
         "useTabs": false,
 
         "preferHanging": true,
+        "bracePosition": "sameLine",
 
-        "method.bracePosition": "sameLine",
         "switchCase.bracePosition": "nextLine",
-        "staticBlock.bracePosition": "sameLine",
-        "constructor.bracePosition": "sameLine",
-        "getAccessor.bracePosition": "sameLine",
-        "setAccessor.bracePosition": "sameLine",
         "ifStatement.bracePosition": "nextLine",
         "forStatement.bracePosition": "nextLine",
         "tryStatement.bracePosition": "nextLine",
@@ -26,10 +22,6 @@
         "classDeclaration.bracePosition": "nextLine",
         "doWhileStatement.bracePosition": "nextLine",
         "moduleDeclaration.bracePosition": "nextLine",
-        "functionExpression.bracePosition": "sameLine",
-        "functionDeclaration.bracePosition": "sameLine",
-        "interfaceDeclaration.bracePosition": "sameLine",
-
     },
 
     "excludes": [ "**/*.min.*", "**/*.vendor.*", "**/*.lock" ],
